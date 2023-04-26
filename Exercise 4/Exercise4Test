@@ -1,0 +1,23 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Exercise4Test 
+{
+	@Test
+	void testMin() 
+	{
+		var runner = new Runner();
+		var min = Runner.Min(3, 5);
+		assertEquals(3, runner);		
+	}
+	
+	@Test
+	void testMax() 
+	{
+		var runner = new Runner();
+		var max = Runner.Max(5, 3);
+		assertEquals(5, max);
+	}
+
+}
