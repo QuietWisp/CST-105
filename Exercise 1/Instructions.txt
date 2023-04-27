@@ -1,0 +1,6 @@
+Write a program that prompts the user to enter a 5-digit postiive integer. 
+Using only the / and % operations, compute each individual digit and display the sum of the digits.
+Here is a smaple run with the user input shown in:
+
+Enter a 5-digit positive integer: 30458
+The sum of the digits is 3 + 0 + 4 + 5 + 9 = 20
