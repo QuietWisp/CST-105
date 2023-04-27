@@ -1,0 +1,9 @@
+Write a "guessing game" program that generates a random integer between 1 and 10000, inclusive.
+The program should prompt the user for a guess.
+
+For each guess the program will output: 
+'HIGHER' if the user's guess is lower than the target
+'LOWER' if the user's guess is higher than the target
+'WINNER' if the user guesses the target
+
+Each time the program prompts the user for a new guess, it should calculate and display the elegible range of values
